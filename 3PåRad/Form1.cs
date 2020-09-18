@@ -16,5 +16,10 @@ namespace _3PåRad
         {
             InitializeComponent();
         }
+
+        private void B1_1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
