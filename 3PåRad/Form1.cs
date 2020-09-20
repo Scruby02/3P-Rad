@@ -10,11 +10,9 @@ namespace _3PåRad
         {
             InitializeComponent();
         }
-
         Button PressedButton;
-        string PlayerTurn = "X";
-        string PreviousPlayerTurn = "";
-
+        String PlayerTurn = "X";
+        String PreviousPlayerTurn = "";
         private void ButtonText()
         {
             if (PlayerTurn == "X")
@@ -39,7 +37,8 @@ namespace _3PåRad
             ButtonText();                                }
         private void B12_Click(object sender, EventArgs e)
         {   PressedButton = B12;
-            ButtonText();                                }
+            ButtonText(); 
+        }
         private void B13_Click(object sender, EventArgs e)
         {   PressedButton = B13;
             ButtonText();                                }
@@ -69,7 +68,20 @@ namespace _3PåRad
                 B31.Text = ""; B32.Text = ""; B33.Text = ""; B21.Text = ""; B22.Text = ""; B23.Text = ""; B11.Text = ""; B12.Text = ""; B13.Text = "";
                 B31.Enabled = true; B32.Enabled = true; B33.Enabled = true; B21.Enabled = true; B22.Enabled = true; B23.Enabled = true; B11.Enabled = true; B12.Enabled = true; B13.Enabled = true;
                 PlayerTurn = "X";
+                if (PreviousPlayerTurn == "X")
+                {
+                    XScore.Text = (XScore.Text + "1");
+                }
+                else if (PreviousPlayerTurn == "O")
+                {
+                    OScore.Text = (OScore.Text + "1");
+                }
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
