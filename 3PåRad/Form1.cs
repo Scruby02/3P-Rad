@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing.Text;
 using System.Windows.Forms;
 
 namespace _3PåRad
@@ -31,7 +32,7 @@ namespace _3PåRad
                 PlayerTurn = "X";
                 PreviousPlayerTurn = "O";
                 Check_Winner();
-            } 
+            }
         }
         private void B11_Click(object sender, EventArgs e)
         {   PressedButton = B11;

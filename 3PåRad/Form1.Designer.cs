@@ -42,7 +42,7 @@
             // B11
             // 
             this.B11.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B11.Location = new System.Drawing.Point(12, 424);
+            this.B11.Location = new System.Drawing.Point(12, 496);
             this.B11.Name = "B11";
             this.B11.Size = new System.Drawing.Size(200, 200);
             this.B11.TabIndex = 0;
@@ -52,7 +52,7 @@
             // B12
             // 
             this.B12.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B12.Location = new System.Drawing.Point(218, 424);
+            this.B12.Location = new System.Drawing.Point(218, 496);
             this.B12.Name = "B12";
             this.B12.Size = new System.Drawing.Size(200, 200);
             this.B12.TabIndex = 1;
@@ -62,7 +62,7 @@
             // B13
             // 
             this.B13.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B13.Location = new System.Drawing.Point(424, 424);
+            this.B13.Location = new System.Drawing.Point(424, 496);
             this.B13.Name = "B13";
             this.B13.Size = new System.Drawing.Size(200, 200);
             this.B13.TabIndex = 2;
@@ -72,7 +72,7 @@
             // B21
             // 
             this.B21.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B21.Location = new System.Drawing.Point(12, 218);
+            this.B21.Location = new System.Drawing.Point(12, 290);
             this.B21.Name = "B21";
             this.B21.Size = new System.Drawing.Size(200, 200);
             this.B21.TabIndex = 3;
@@ -82,7 +82,7 @@
             // B22
             // 
             this.B22.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B22.Location = new System.Drawing.Point(218, 218);
+            this.B22.Location = new System.Drawing.Point(218, 290);
             this.B22.Name = "B22";
             this.B22.Size = new System.Drawing.Size(200, 200);
             this.B22.TabIndex = 4;
@@ -92,7 +92,7 @@
             // B23
             // 
             this.B23.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B23.Location = new System.Drawing.Point(424, 218);
+            this.B23.Location = new System.Drawing.Point(424, 290);
             this.B23.Name = "B23";
             this.B23.Size = new System.Drawing.Size(200, 200);
             this.B23.TabIndex = 5;
@@ -102,7 +102,7 @@
             // B31
             // 
             this.B31.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B31.Location = new System.Drawing.Point(12, 12);
+            this.B31.Location = new System.Drawing.Point(12, 84);
             this.B31.Name = "B31";
             this.B31.Size = new System.Drawing.Size(200, 200);
             this.B31.TabIndex = 6;
@@ -112,7 +112,7 @@
             // B32
             // 
             this.B32.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B32.Location = new System.Drawing.Point(218, 12);
+            this.B32.Location = new System.Drawing.Point(218, 84);
             this.B32.Name = "B32";
             this.B32.Size = new System.Drawing.Size(200, 200);
             this.B32.TabIndex = 7;
@@ -122,7 +122,7 @@
             // B33
             // 
             this.B33.Font = new System.Drawing.Font("Dubai", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B33.Location = new System.Drawing.Point(424, 12);
+            this.B33.Location = new System.Drawing.Point(424, 84);
             this.B33.Name = "B33";
             this.B33.Size = new System.Drawing.Size(200, 200);
             this.B33.TabIndex = 8;
@@ -133,7 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(638, 636);
+            this.ClientSize = new System.Drawing.Size(638, 734);
             this.Controls.Add(this.B33);
             this.Controls.Add(this.B32);
             this.Controls.Add(this.B31);
